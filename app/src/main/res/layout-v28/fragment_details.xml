@@ -25,8 +25,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/icon_back"
@@ -36,8 +35,7 @@
                 android:layout_marginBottom="18dp"
                 android:src="@drawable/ic_back"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
                 android:id="@+id/icon_favorite"
@@ -47,8 +45,7 @@
                 android:layout_marginBottom="18dp"
                 android:src="@drawable/ic_favorite"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/icon_share"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintEnd_toStartOf="@+id/icon_share" />
 
             <ImageView
                 android:id="@+id/icon_share"
@@ -58,8 +55,7 @@
                 android:layout_marginBottom="18dp"
                 android:src="@drawable/ic_share"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintEnd_toEndOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -113,10 +109,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/visit_site"
-        android:textColor="#5D4037"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/article_details_description_text" />
+        app:layout_constraintTop_toBottomOf="@id/article_details_description_text"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
